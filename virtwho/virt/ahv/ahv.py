@@ -1,7 +1,7 @@
 import socket
 
 from . import ahv_constants
-from ahv_interface import AhvInterface, Failure
+from .ahv_interface import AhvInterface, Failure
 from time import time
 from virtwho import virt
 from virtwho.config import VirtConfigSection
