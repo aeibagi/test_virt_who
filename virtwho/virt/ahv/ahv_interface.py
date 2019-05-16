@@ -1,6 +1,7 @@
-import ahv_constants
 import json
 import time
+
+from . import ahv_constants
 from requests import Session
 from requests.exceptions import ConnectionError, ReadTimeout
 from virtwho import virt
